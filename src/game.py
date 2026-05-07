@@ -12,9 +12,13 @@ class Game:
         r = Round(guess_player, self.target)
         result = r.evaluate()
         self.rounds.append(result)
-        
+        return result
+    
+    def is_won(self):
+        return self.rounds and self.rounds[-1]["name"] == self.target.name
+
     def is_over(self):
-        return len(self.rounds) >= self.max_rounds
+        return self.is_won() or len(self.rounds) >= self.max_rounds
 
             
 
