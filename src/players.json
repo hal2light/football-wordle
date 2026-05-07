@@ -1,0 +1,12 @@
+[
+  {"name": "Milan Škriniar", "age": 31, "nationality": "Slovakia", "club": "Fenerbahce", "position": "CB", "number": 37},
+  {"name": "Amir Murillo", "age": 30, "nationality": "Panama", "club": "Besiktas", "position": "RB", "number": 62},
+  {"name": "Emirhan Topçu", "age": 25, "nationality": "Turkey", "club": "Besiktas", "position": "CB", "number": 53},
+  {"name": "Barış Alper Yılmaz", "age": 25, "nationality": "Turkey", "club": "Galatasaray", "position": "LW", "number": 53},
+  {"name": "Mattéo Guendouzi", "age": 27, "nationality": "France", "club": "Fenerbahce", "position": "CM", "number": 6},
+  {"name": "Marco Asensio", "age": 30, "nationality": "Spain", "club": "Fenerbahce", "position": "CAM", "number": 21},  
+  {"name": "Victor Osimhen", "age": 27, "nationality": "Nigeria", "club": "Galatasaray", "position": "ST", "number": 45},
+  {"name": "Ugurcan Cakir", "age": 30, "nationality": "Turkey", "club": "Galatasaray", "position": "GK", "number": 1},
+  {"name": "Orkun Kokcu", "age": 25, "nationality": "Turkey", "club": "Besiktas", "position": "CM", "number": 10},
+  {"name": "Talisca", "age": 32, "nationality": "Brazil", "club": "Fenerbahce", "position": "CAM", "number": 94}
+]
