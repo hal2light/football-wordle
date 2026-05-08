@@ -15,7 +15,7 @@ class Game:
         return result
     
     def is_won(self):
-        return self.rounds and self.rounds[-1]["name"] == self.target.name
+        return self.rounds and self.rounds[-1]["name"]["value"] == self.target.name
 
     def is_over(self):
         return self.is_won() or len(self.rounds) >= self.max_rounds
