@@ -36,7 +36,7 @@ class Round:
         if self.guess.position == self.target.position:
             return {"value":self.guess.position, "status": "correct"}
         elif self.decide_position_group(self.guess.position) == self.decide_position_group(self.target.position):
-            return {"value":self.decide_position_group(self.guess.position), "status": "group_match"}
+            return {"value":self.guess.position, "status": "group_match"}
         else :
             return {"value":self.guess.position, "status": "wrong"}
     def decide_position_group(self, position):

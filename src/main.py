@@ -1,5 +1,6 @@
 import difflib
 import json
+import os
 import sys
 from prompt_toolkit import prompt
 from prompt_toolkit.completion import FuzzyWordCompleter
@@ -12,8 +13,12 @@ from rich.text import Text
 from game import Game
 from player import Player
 
+# Get the absolute path to the directory containing this script
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+players_path = os.path.join(BASE_DIR, "players.json")
+
 # Load player data
-with open("src/players.json", encoding="utf-8") as f:
+with open(players_path, encoding="utf-8") as f:
     data = json.load(f)
 players = [Player(**p) for p in data]
 
