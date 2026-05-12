@@ -1,12 +1,402 @@
 [
-  {"name": "Milan Škriniar", "age": 31, "nationality": "Slovakia", "club": "Fenerbahce", "position": "CB", "number": 37},
-  {"name": "Amir Murillo", "age": 30, "nationality": "Panama", "club": "Besiktas", "position": "RB", "number": 62},
-  {"name": "Emirhan Topçu", "age": 25, "nationality": "Turkey", "club": "Besiktas", "position": "CB", "number": 53},
-  {"name": "Barış Alper Yılmaz", "age": 25, "nationality": "Turkey", "club": "Galatasaray", "position": "LW", "number": 53},
-  {"name": "Mattéo Guendouzi", "age": 27, "nationality": "France", "club": "Fenerbahce", "position": "CM", "number": 6},
-  {"name": "Marco Asensio", "age": 30, "nationality": "Spain", "club": "Fenerbahce", "position": "CAM", "number": 21},  
-  {"name": "Victor Osimhen", "age": 27, "nationality": "Nigeria", "club": "Galatasaray", "position": "ST", "number": 45},
-  {"name": "Ugurcan Cakir", "age": 30, "nationality": "Turkey", "club": "Galatasaray", "position": "GK", "number": 1},
-  {"name": "Orkun Kokcu", "age": 25, "nationality": "Turkey", "club": "Besiktas", "position": "CM", "number": 10},
-  {"name": "Talisca", "age": 32, "nationality": "Brazil", "club": "Fenerbahce", "position": "CAM", "number": 94}
+    {
+        "name": "Victor Osimhen",
+        "age": 27,
+        "nationality": "Nigeria",
+        "club": "Galatasaray",
+        "position": "ST",
+        "number": 45
+    },
+    {
+        "name": "Mattéo Guendouzi",
+        "age": 27,
+        "nationality": "France",
+        "club": "Fenerbahce",
+        "position": "CM",
+        "number": 6
+    },
+    {
+        "name": "Barış Alper Yılmaz",
+        "age": 25,
+        "nationality": "Türkiye",
+        "club": "Galatasaray",
+        "position": "LW",
+        "number": 53
+    },
+    {
+        "name": "Wilfried Singo",
+        "age": 25,
+        "nationality": "Cote d'Ivoire",
+        "club": "Galatasaray",
+        "position": "CB",
+        "number": 90
+    },
+    {
+        "name": "Noa Lang",
+        "age": 26,
+        "nationality": "Netherlands",
+        "club": "Galatasaray",
+        "position": "LW",
+        "number": 77
+    },
+    {
+        "name": "Orkun Kökçü",
+        "age": 25,
+        "nationality": "Türkiye",
+        "club": "Besiktas JK",
+        "position": "CM",
+        "number": 10
+    },
+    {
+        "name": "Gabriel Sara",
+        "age": 26,
+        "nationality": "Brazil",
+        "club": "Galatasaray",
+        "position": "CM",
+        "number": 8
+    },
+    {
+        "name": "Kerem Aktürkoğlu",
+        "age": 27,
+        "nationality": "Türkiye",
+        "club": "Fenerbahce",
+        "position": "LW",
+        "number": 9
+    },
+    {
+        "name": "Leroy Sané",
+        "age": 30,
+        "nationality": "Germany",
+        "club": "Galatasaray",
+        "position": "RW",
+        "number": 10
+    },
+    {
+        "name": "Edson Álvarez",
+        "age": 28,
+        "nationality": "Mexico",
+        "club": "Fenerbahce",
+        "position": "CDM",
+        "number": 11
+    },
+    {
+        "name": "Jayden Oosterwolde",
+        "age": 25,
+        "nationality": "Netherlands",
+        "club": "Fenerbahce",
+        "position": "CB",
+        "number": 24
+    },
+    {
+        "name": "Dorgeles Nene",
+        "age": 23,
+        "nationality": "Mali",
+        "club": "Fenerbahce",
+        "position": "RW",
+        "number": 45
+    },
+    {
+        "name": "Sidiki Chérif",
+        "age": 19,
+        "nationality": "Guinea",
+        "club": "Fenerbahce",
+        "position": "ST",
+        "number": 26
+    },
+    {
+        "name": "Yunus Akgün",
+        "age": 25,
+        "nationality": "Türkiye",
+        "club": "Galatasaray",
+        "position": "RW",
+        "number": 11
+    },
+    {
+        "name": "Davinson Sánchez",
+        "age": 29,
+        "nationality": "Colombia",
+        "club": "Galatasaray",
+        "position": "CB",
+        "number": 6
+    },
+    {
+        "name": "Emmanuel Agbadou",
+        "age": 28,
+        "nationality": "Cote d'Ivoire",
+        "club": "Besiktas JK",
+        "position": "CB",
+        "number": 12
+    },
+    {
+        "name": "Christ Inao Oulaï",
+        "age": 20,
+        "nationality": "Cote d'Ivoire",
+        "club": "Trabzonspor",
+        "position": "CM",
+        "number": 42
+    },
+    {
+        "name": "Marco Asensio",
+        "age": 30,
+        "nationality": "Spain",
+        "club": "Fenerbahce",
+        "position": "CAM",
+        "number": 21
+    },
+    {
+        "name": "Sacha Boey",
+        "age": 25,
+        "nationality": "France",
+        "club": "Galatasaray",
+        "position": "RB",
+        "number": 93
+    },
+    {
+        "name": "İsmail Yüksek",
+        "age": 27,
+        "nationality": "Türkiye",
+        "club": "Fenerbahce",
+        "position": "CDM",
+        "number": 5
+    },
+    {
+        "name": "Uğurcan Çakır",
+        "age": 30,
+        "nationality": "Türkiye",
+        "club": "Galatasaray",
+        "position": "GK",
+        "number": 1
+    },
+    {
+        "name": "Hyeon-gyu Oh",
+        "age": 25,
+        "nationality": "Korea, South",
+        "club": "Besiktas JK",
+        "position": "ST",
+        "number": 9
+    },
+    {
+        "name": "El Bilal Touré",
+        "age": 24,
+        "nationality": "Mali",
+        "club": "Besiktas JK",
+        "position": "LW",
+        "number": 19
+    },
+    {
+        "name": "Yáser Asprilla",
+        "age": 22,
+        "nationality": "Colombia",
+        "club": "Galatasaray",
+        "position": "RW",
+        "number": 22
+    },
+    {
+        "name": "Ederson",
+        "age": 32,
+        "nationality": "Brazil",
+        "club": "Fenerbahce",
+        "position": "GK",
+        "number": 31
+    },
+    {
+        "name": "Kristjan Asllani",
+        "age": 24,
+        "nationality": "Albania",
+        "club": "Besiktas JK",
+        "position": "CDM",
+        "number": 23
+    },
+    {
+        "name": "Roland Sallai",
+        "age": 28,
+        "nationality": "Hungary",
+        "club": "Galatasaray",
+        "position": "RB",
+        "number": 7
+    },
+    {
+        "name": "Lucas Torreira",
+        "age": 30,
+        "nationality": "Uruguay",
+        "club": "Galatasaray",
+        "position": "CDM",
+        "number": 34
+    },
+    {
+        "name": "André Onana",
+        "age": 30,
+        "nationality": "Cameroon",
+        "club": "Trabzonspor",
+        "position": "GK",
+        "number": 24
+    },
+    {
+        "name": "Jota Silva",
+        "age": 26,
+        "nationality": "Portugal",
+        "club": "Besiktas JK",
+        "position": "LW",
+        "number": 26
+    },
+    {
+        "name": "Milan Škriniar",
+        "age": 31,
+        "nationality": "Slovakia",
+        "club": "Fenerbahce",
+        "position": "CB",
+        "number": 37
+    },
+    {
+        "name": "Ernest Muci",
+        "age": 25,
+        "nationality": "Albania",
+        "club": "Trabzonspor",
+        "position": "CAM",
+        "number": 10
+    },
+    {
+        "name": "Arseniy Batagov",
+        "age": 24,
+        "nationality": "Ukraine",
+        "club": "Trabzonspor",
+        "position": "CB",
+        "number": 44
+    },
+    {
+        "name": "Wilfred Ndidi",
+        "age": 29,
+        "nationality": "Nigeria",
+        "club": "Besiktas JK",
+        "position": "CDM",
+        "number": 4
+    },
+    {
+        "name": "Felipe Augusto",
+        "age": 22,
+        "nationality": "Brazil",
+        "club": "Trabzonspor",
+        "position": "ST",
+        "number": 99
+    },
+    {
+        "name": "Archie Brown",
+        "age": 23,
+        "nationality": "England",
+        "club": "Fenerbahce",
+        "position": "LB",
+        "number": 3
+    },
+    {
+        "name": "Talisca",
+        "age": 32,
+        "nationality": "Brazil",
+        "club": "Fenerbahce",
+        "position": "CAM",
+        "number": 94
+    },
+    {
+        "name": "Oğuz Aydın",
+        "age": 25,
+        "nationality": "Türkiye",
+        "club": "Fenerbahce",
+        "position": "LW",
+        "number": 70
+    },
+    {
+        "name": "Ismail Jakobs",
+        "age": 26,
+        "nationality": "Senegal",
+        "club": "Galatasaray",
+        "position": "LB",
+        "number": 4
+    },
+    {
+        "name": "Vaclav Cerny",
+        "age": 28,
+        "nationality": "Czech Republic",
+        "club": "Besiktas JK",
+        "position": "RW",
+        "number": 18
+    },
+    {
+        "name": "Amir Murillo",
+        "age": 30,
+        "nationality": "Panama",
+        "club": "Besiktas JK",
+        "position": "RB",
+        "number": 62
+    },
+    {
+        "name": "Wagner Pina",
+        "age": 23,
+        "nationality": "Cape Verde",
+        "club": "Trabzonspor",
+        "position": "RB",
+        "number": 20
+    },
+    {
+        "name": "Juan",
+        "age": 24,
+        "nationality": "Brazil",
+        "club": "Göztepe",
+        "position": "ST",
+        "number": 9
+    },
+    {
+        "name": "Anthony Dennis",
+        "age": 21,
+        "nationality": "Nigeria",
+        "club": "Göztepe",
+        "position": "CDM",
+        "number": 30
+    },
+    {
+        "name": "Nélson Semedo",
+        "age": 32,
+        "nationality": "Portugal",
+        "club": "Fenerbahce",
+        "position": "RB",
+        "number": 27
+    },
+    {
+        "name": "Mert Müldür",
+        "age": 27,
+        "nationality": "Türkiye",
+        "club": "Fenerbahce",
+        "position": "RB",
+        "number": 18
+    },
+    {
+        "name": "Abbosbek Fayzullaev",
+        "age": 22,
+        "nationality": "Uzbekistan",
+        "club": "Basaksehir FK",
+        "position": "RW",
+        "number": 11
+    },
+    {
+        "name": "Tiago Djaló",
+        "age": 26,
+        "nationality": "Portugal",
+        "club": "Besiktas JK",
+        "position": "CB",
+        "number": 35
+    },
+    {
+        "name": "Oleksandr Zubkov",
+        "age": 29,
+        "nationality": "Ukraine",
+        "club": "Trabzonspor",
+        "position": "RW",
+        "number": 22
+    },
+    {
+        "name": "Chibuike Nwaiwu",
+        "age": 22,
+        "nationality": "Nigeria",
+        "club": "Trabzonspor",
+        "position": "CB",
+        "number": 27
+    }
 ]
